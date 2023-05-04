@@ -1,0 +1,55 @@
+[
+    {
+        "id":1,
+        "title":"Oooh - Tap It",
+        "name":"tapit",
+
+        "technologies": ["JavaScript","Oooh module engine"],
+        "website":"https://github.com/ParthCv/Tap-It-Oooh-ISSP",
+        "about": "",
+        "description":[]
+    },
+    {   
+        "id":2,
+        "title":"Genuity",
+        "name":"genuity",
+        "technologies": ["Android Studio", "Java", "Firebase Firestore"],
+        "website":"https://github.com/winter2022-comp3717/project-genuity",
+        "about": "",
+        "description":[]
+    },
+    {
+        "id":3,
+        "title":"EcoBus",
+        "name":"ecobus",
+        "technologies":["React", "JavaScript", "Google Maps API", "Firebase Firestore", "Selenium", "Bootstrap"],
+        "website":"https://github.com/fijiman24/COMP-2800-Team-DTC-05-EcoBus",
+        "about":"",
+        "description":[
+            "",
+            "Created tests using Selenium"
+        ]
+    },
+    {
+        "id":4,
+        "title":"Sector Six - Text Based Adventure Game",
+        "name":"sectorsix",
+        "technologies":["Python"],
+        "website":"https://github.com/ahe8/text-based-adventure-game",
+        "about":"",
+        "description":[
+            "Wrote unit"
+        ]
+    },
+    {
+        "id":5,
+        "title":"Kaggle - Mobile Price Predictor",
+        "name":"kaggle",
+        "technologies":["Python", "NumPy", "pandas", "sklearn", "Matplotlib"],
+        "website":"https://kaggle.com/code/austinhe1/mobile-price-predictor",
+        "about":"",
+        "description":[
+
+        ]
+    }
+]
