@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.073c9b0a.css",
-    "main.js": "/static/js/main.b6d59ab0.js",
-    "static/js/787.e19c2ea8.chunk.js": "/static/js/787.e19c2ea8.chunk.js",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/static/css/main.7fb4e922.css",
+    "main.js": "/static/js/main.1ce0214a.js",
+    "static/media/austin.jpg": "/static/media/austin.3fb9b1b2715fb9fd66cc.jpg",
+    "static/media/BCIT.png": "/static/media/BCIT.4b5b99360586c6e1f482.png",
+    "static/media/CapU.png": "/static/media/CapU.8a49796b18083f69f563.png",
+    "static/media/mcdonalds.png": "/static/media/mcdonalds.3faa81a15174cd21de65.png",
+    "static/media/freedommobile.png": "/static/media/freedommobile.ca471a5c48afb0487378.png",
     "index.html": "/index.html",
-    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
-    "main.b6d59ab0.js.map": "/static/js/main.b6d59ab0.js.map",
-    "787.e19c2ea8.chunk.js.map": "/static/js/787.e19c2ea8.chunk.js.map"
+    "main.7fb4e922.css.map": "/static/css/main.7fb4e922.css.map",
+    "main.1ce0214a.js.map": "/static/js/main.1ce0214a.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.b6d59ab0.js"
+    "static/css/main.7fb4e922.css",
+    "static/js/main.1ce0214a.js"
   ]
 }
