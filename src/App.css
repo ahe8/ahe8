@@ -1,5 +1,10 @@
 * {
   font-family: Geneva, Arial, Helvetica, sans-serif;
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
 
 body {
@@ -8,11 +13,10 @@ body {
 
 header {
   text-align: center;
-  margin: auto ;
+  margin: auto;
   max-width: 1600px;
   color: white;
-
- }
+}
 
 .nameHeader {
   font-size: 4em;
@@ -30,7 +34,7 @@ header {
   text-align: center;
 } */
 
-.sidebar > ul {
+.sidebar>ul {
   list-style-type: none;
   margin-left: 0;
   padding-left: 0;
@@ -38,9 +42,8 @@ header {
 
 
 nav {
-  color:white;
+  color: white;
   width: fit-content;
-
 }
 
 .categories {
@@ -49,7 +52,7 @@ nav {
 
 a {
   color: white;
-  text-decoration:none
+  text-decoration: none
 }
 
 .container {
@@ -63,7 +66,7 @@ a {
 .content {
   background-color: #1F1B24;
   text-align: center;
-  width:100%;
+  width: 100%;
   overflow-y: auto;
   color: white;
 
@@ -71,7 +74,6 @@ a {
 
 .hamburger {
   display: none;
-  cursor: pointer;
 }
 
 .bar {
@@ -83,7 +85,7 @@ a {
 }
 
 
-.content > div {
+.content>div {
   height: 100%;
 }
 
@@ -95,15 +97,7 @@ a {
   margin-left: 0.2em;
 }
 
-* {
-  scroll-behavior: smooth;
-}
 
-
-
-::-webkit-scrollbar {
-  display:none;
-}
 
 
 .about {
@@ -116,13 +110,13 @@ a {
 
 }
 
-.about-item-1{
+.about-item-1 {
   grid-column: span 6;
 
   border: 2px dashed pink;
 }
 
-.about-item-2{
+.about-item-2 {
   grid-row-start: 2;
   margin-left: 2vw;
   grid-column: span 2;
@@ -151,16 +145,17 @@ a {
   margin: auto;
 }
 
-.education img, .experience img {
+.education img,
+.experience img {
   max-height: 200px;
 }
 
-.school p{
+.school p {
   margin: 0;
 }
 
 footer {
-  display:none;
+  display: none;
 }
 
 
@@ -172,69 +167,71 @@ footer {
 
 
 @media(max-width:768px) {
-  .hamburger{
-    display:block;
+  .hamburger {
+    display: block;
+    border: 1px solid black;
   }
 
-  .hamburger.active .bar:nth-child(2){
+  .hamburger.active .bar:nth-child(2) {
     opacity: 0;
   }
-  .hamburger.active .bar:nth-child(1){
+
+  .hamburger.active .bar:nth-child(1) {
     transform: translateY(8px) rotate(45deg);
   }
-  .hamburger.active .bar:nth-child(3){
+
+  .hamburger.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
   }
 
-  .sidebar{
+
+  .sidebar {
     position: absolute;
     background-color: #121212;
     width: 100%;
     text-align: center;
     transition: 0.3s;
     z-index: 1;
-    padding:auto;
+    padding: auto;
 
-    border: 2px dashed green;
   }
 
-  .categories, .contact {
+  .categories,
+  .contact {
     display: none;
   }
 
-  .categories.active, .contact.active{
-    display: block;  
+  .categories.active,
+  .contact.active {
+    display: block;
   }
 
-  
+
   nav {
-    float: none;
     width: 100%;
-    margin: auto;
   }
-  
+
 
   header {
     background-color: black;
-    text-align: center;
-    margin-bottom: 0;
+    border: 1px solid black;
   }
 
-  .container{
-    margin:auto;
-    display:block;
+  .container {
+    margin: auto;
+    display: block;
     overflow: scroll;
 
-    padding:0;
+    padding: 0;
   }
 
-  .content > div {
+  .content>div {
     /* 100vh - 4em header - 4em title - (10px margin + 3px bar)*3 hamburger*/
     min-height: calc(100vh - 8em - 39px);
   }
 
   .about {
-    display:flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: stretch;
@@ -245,27 +242,25 @@ footer {
     height: 30vh;
   }
 
-  .about-item-2, .about-item-3 {
+  .about-item-2,
+  .about-item-3 {
     margin: auto;
     text-align: center;
   }
 
   nav.sticky-top {
-    margin-top:0;
     background-color: black;
   }
 
   footer {
     display: block;
-    margin: 1em;
   }
 
-  footer a{
+  footer a {
     margin: 1.5em;
-    border: 2px red solid;
   }
 
-  footer div{
-    margin-top:1.5em;
+  footer div {
+    margin-top: 1.5em;
   }
 }
