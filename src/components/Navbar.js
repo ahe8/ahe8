@@ -6,34 +6,15 @@ import Contact from "./Contact"
 import {FaEnvelope, FaLinkedin, FaGithub}  from 'react-icons/fa'
 import contact from "../data/contact"
 
-export default function Navbar() {
+export default function Navbar(props) {
     const [isToggled, setToggled] = React.useState(false);
-    const [isMobile, setIsMobile] = React.useState(window.innerWidth < 768)
 
     function toggle() {
         setToggled(prevState => !prevState);
     }
 
-    //choose the screen size 
-    const handleResize = () => {
-        if (window.innerWidth < 768) {
-            setIsMobile(true)
-        } else {
-            setIsMobile(false)
-        }
-    }
-
-    // create an event listener
-    React.useEffect(() => {
-        window.addEventListener("resize", handleResize)
-
-        return function cleanupListener() {
-            window.removeEventListener('resize', handleResize)
-        };
-    })
-
     return (
-        <nav className={isMobile ? "sticky-top" : ""} data-aos="fade-right">
+        <nav className={props.isMobile ? "sticky-top" : ""} data-aos={props.isMobile ? "" : "fade-right"}>
             <div className={"hamburger" + (isToggled ? " active" : "")} onClick={toggle}>
                 <span className="bar"></span>
                 <span className="bar"></span>

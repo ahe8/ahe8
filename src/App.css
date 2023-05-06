@@ -167,6 +167,21 @@ footer {
 
 
 @media(max-width:768px) {
+  html{
+    scroll-padding-top: 8.2em;
+  }
+
+  .nameHeader, .titleHeader{
+    margin-bottom: 0;
+  }
+
+  .mobile{
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+
+  }
+
   .hamburger {
     display: block;
     border: 1px solid black;
@@ -184,14 +199,13 @@ footer {
     transform: translateY(-8px) rotate(-45deg);
   }
 
-
   .sidebar {
     position: absolute;
     background-color: #121212;
     width: 100%;
     text-align: center;
     transition: 0.3s;
-    z-index: 1;
+
     padding: auto;
 
   }
@@ -208,26 +222,29 @@ footer {
 
 
   nav {
+    background-color: black;
     width: 100%;
   }
 
 
   header {
     background-color: black;
-    border: 1px solid black;
+
   }
 
+
+
   .container {
-    margin: auto;
     display: block;
+    max-height: none;
     overflow: scroll;
 
     padding: 0;
   }
 
   .content>div {
-    /* 100vh - 4em header - 4em title - (10px margin + 3px bar)*3 hamburger*/
-    min-height: calc(100vh - 8em - 39px);
+    /* 100vh - 4em header - 4em title - 29px hamburger - 4px borders*/
+    min-height: calc(100vh - 8em - 29px - 2px);
   }
 
   .about {
@@ -246,10 +263,6 @@ footer {
   .about-item-3 {
     margin: auto;
     text-align: center;
-  }
-
-  nav.sticky-top {
-    background-color: black;
   }
 
   footer {

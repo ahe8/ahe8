@@ -11,11 +11,35 @@ function App() {
     AOS.init();
   }, [])
 
+  const [isMobile, setIsMobile] = React.useState(window.innerWidth < 768)
+
+    //choose the screen size 
+    const handleResize = () => {
+      if (window.innerWidth < 768) {
+          setIsMobile(true)
+      } else {
+          setIsMobile(false)
+      }
+  }
+
+  // create an event listener
+  React.useEffect(() => {
+      window.addEventListener("resize", handleResize)
+
+      return function cleanupListener() {
+          window.removeEventListener('resize', handleResize)
+      };
+  })
+
   return (
     <>
-      <Header/ >
+      <div className={isMobile ? "mobile" : ""}>
+        <Header/ >
+        {isMobile && <Navbar isMobile={isMobile}/>}
+      </div>
+
       <div className="container">
-        <Navbar />
+        {!isMobile && <Navbar isMobile={isMobile}/>}
         <Content />
       </div>
     </>
