@@ -1,5 +1,4 @@
 import React from 'react'
-
 import about from "../data/about"
 
 export default function Header() {

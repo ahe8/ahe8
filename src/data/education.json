@@ -1,22 +1,22 @@
 [
     {
-        "id":1,
-        "from":"Jan. 2021",
-        "to":"Dec. 2022",
-        "location":"Burnaby, BC",
-        "program":"Diploma in Computer Systems Technology",
-        "concentration":"Predictive Analytics",
-        "honors":"Graduated With Distinction",
-        "name":"British Columbia Institute of Technology"
+        "id": 1,
+        "from": "Jan. 2021",
+        "to": "Dec. 2022",
+        "location": "Burnaby, BC",
+        "program": "Diploma in Computer Systems Technology",
+        "concentration": "Predictive Analytics",
+        "honors": "Graduated With Distinction",
+        "name": "British Columbia Institute of Technology"
     },
     {
-        "id":2,
-        "from":"Sep. 2014",
-        "to":"Apr. 2020",
-        "location":"North Vancouver, BC",
-        "program":"Bachelor of Business Administration",
-        "concentration":"Accounting",
-        "honors":"Dean's List - Spring 2020",
-        "name":"Capilano University"
+        "id": 2,
+        "from": "Sep. 2014",
+        "to": "Apr. 2020",
+        "location": "North Vancouver, BC",
+        "program": "Bachelor of Business Administration",
+        "concentration": "Accounting",
+        "honors": "Dean's List - Spring 2020",
+        "name": "Capilano University"
     }
 ]

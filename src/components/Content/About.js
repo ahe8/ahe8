@@ -3,7 +3,6 @@ import about from "../../data/about"
 import austin from "../../assets/images/austin.jpg"
 
 export default function About() {
-
   const introArray = about.intro.map((sentence) => 
     <p>{sentence}</p>
   )

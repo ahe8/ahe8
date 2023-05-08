@@ -4,10 +4,9 @@ import BCIT from "../../assets/images/BCIT.png"
 import CapU from "../../assets/images/CapU.png"
 
 export default function Education() {
-
-    const educationArray = education.map((school) => 
+    const educationArray = education.map((school) =>
         <div key={school.id} className="school">
-            <img id="school--img" src={ school.name.charAt(0) === "B" ? BCIT : CapU } alt={school.name}></img>
+            <img id="school--img" src={school.name.charAt(0) === "B" ? BCIT : CapU} alt={school.name}></img>
             <h3 id="school--name">{school.name}</h3>
             <p id="school--location">{school.location}</p>
             <p id="school--date">{school.from} - {school.to}</p>
@@ -19,7 +18,9 @@ export default function Education() {
     return (
         <div className="education" id="education">
             <h1>Education</h1>
-            {educationArray}
+            <div className="education--container">
+                {educationArray}
+            </div>
         </div>
     )
 }

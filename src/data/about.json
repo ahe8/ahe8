@@ -1,14 +1,18 @@
 {
-    "firstName":"Austin",
-    "lastName":"He",
-    "title":"Software Developer",
-    "intro":[
-        "I am a new graduate in the tech field, with a business and accounting background. Combining my passion for technology and my keen interest in the world of business, I embarked on a journey to further my education in Computer Science. Throughout my academic pursuits, I delved into the intricate aspects of programming, software development, and systems analysis, while also gaining a comprehensive understanding of the principles that drive successful businesses.",
-        "My education in business provided me with a solid foundation in areas such as accounting, marketing, and strategic management. This knowledge, coupled with my technical skills in computer science, equips me with a unique perspective to bridge the gap between technology and business needs.",
-        "During my time as a student, I actively sought opportunities to apply my knowledge in practical settings. I engaged in projects that involved developing software solutions for financial analysis, optimizing business processes through automation, and leveraging data analytics to drive informed decision-making. These experiences have sharpened my problem-solving abilities and nurtured my ability to think critically in complex situations.",
+    "firstName": "Austin",
+    "lastName": "He",
+    "title": "Software Developer",
+    "intro": [
+        "I am a new graduate in the tech field, with a business and accounting background. Through the combination of my passion for technology and my interest in the world of business, I embarked on a journey to further my education in Computer Science. During my time at school, I delved into all aspects of software development from ideation, creating modular, clean code to writing tests.",
+        "My education in business provided me with a solid foundation in areas such as finance, accounting, marketing, and project management. This knowledge, combined with my technical skills, equips me with a unique perspective to bridge the gap between technology and business needs.",
+        "During my time as a student, I actively sought opportunities to apply my knowledge in practical settings. I engaged in projects that involved proposing and creating applications for companies. These experiences have sharpened my problem-solving abilities and nurtured my ability to think critically in complex situations.",
         "Beyond my academic achievements, I am an enthusiastic collaborator and a dedicated team player. I thrive in collaborative environments where diverse perspectives come together to achieve common goals. I strongly believe that combining technical expertise with effective communication and interpersonal skills leads to successful outcomes.",
-        "As I embark on the next phase of my journey, I am excited about the possibilities that lie ahead. I am eager to contribute my knowledge, skills, and enthusiasm to make a tangible impact in the business and technology landscape. I am open to exploring various career opportunities where I can leverage my computer science expertise and business acumen to drive innovation, optimize processes, and contribute to the growth and success of organizations.",
-        "Thank you for taking the time to learn a bit about me. I am enthusiastic about connecting with professionals and organizations that share my passion for technology and business, and I look forward to the exciting opportunities that await me."
+        "As I move on the next phase of my journey, I am excited about the possibilities that lie ahead. I am eager to contribute my knowledge and skills to make an impact.",
+        "Thank you for taking the time to learn a bit about me. I am enthusiastic about connecting with professionals and organizations that share my passion and I look forward to the exciting opportunities that await me!"
     ],
-    "technologies":["Python", "JavaScript", "Java"]
+    "technologies": [
+        "Python",
+        "JavaScript",
+        "Java"
+    ]
 }

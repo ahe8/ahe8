@@ -4,10 +4,9 @@ import mcdonalds from "../../assets/images/mcdonalds.png"
 import freedommobile from "../../assets/images/freedommobile.png"
 
 export default function Experience() {
-
     const experienceArray = experience.map((exp) => 
         <div key={exp.id}>
-            <img src={exp.company.charAt(0) === "M" ? mcdonalds : freedommobile}></img>
+            <img src={exp.company.charAt(0) === "M" ? mcdonalds : freedommobile} alt={exp.company}></img>
             <h3>{exp.company}</h3>
             <p>{exp.position}</p>
             <p>{exp.from} - {exp.to}</p>
@@ -16,8 +15,10 @@ export default function Experience() {
 
     return (
         <div className="experience" id="experience">
-            <h1>Experience</h1>
-            {experienceArray}
+            <h1>Work Experience</h1>
+            <div className="experience--container">
+                {experienceArray}
+            </div>
         </div>
     )
 }
