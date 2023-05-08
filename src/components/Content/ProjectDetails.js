@@ -18,7 +18,6 @@ export default function ProjectDetails(props) {
   const projectDescriptionArray = props.description.map((description) =>
     <li>{description}</li>
   )
-  console.log(projectDescriptionArray)
 
   if (props.flowchart) {
     projectDescriptionArray.push(
@@ -26,7 +25,7 @@ export default function ProjectDetails(props) {
     )
   }
 
-  let technologies = ""
+  let technologies = "";
 
   for (let i = 0; i < props.technologies.length; i++) {
     if (i < props.technologies.length - 1) {
