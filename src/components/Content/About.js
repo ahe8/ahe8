@@ -1,6 +1,7 @@
 import React from "react";
 import about from "../../data/about"
 import austin from "../../assets/images/austin.jpg"
+import Skills from "./Skills"
 
 export default function About() {
   const introArray = about.intro.map((sentence) => 
@@ -13,6 +14,8 @@ export default function About() {
       <img className="about-item-2" id="avatar" src={austin} alt="avatar"></img>
       <div className="about-item-3">
         {introArray}
+        <Skills />
+        
         <a href="#projects" className="btn btn-light">Check out my projects!</a>
       </div>
     </div>

@@ -99,7 +99,7 @@ footer a {
 .experience--container>div,
 .education--container>div {
   display: inline-block;
-  margin: 7em;
+  margin: 5em;
 }
 
 .experience--container img,
@@ -177,6 +177,10 @@ footer {
   margin-right: 0.5em;
 }
 
+.skills {
+  margin: 1em auto;
+}
+
 @media(min-width:768px) and (max-width:1400px) {
   .about-item-3 {
     grid-column: 3 / 9;
@@ -248,7 +252,6 @@ footer {
 
   header {
     background-color: black;
-
   }
 
   .container {
@@ -305,4 +308,12 @@ footer {
     display: inline-block;
     margin: 2em;
   }
+
+  .skills ul{
+    list-style-type: none;
+    padding-left: 0;
+
+  }
+
+
 }
