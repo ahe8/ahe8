@@ -1,8 +1,5 @@
 import React from 'react';
 
-import about from "../data/about"
-import Contact from "./Contact"
-
 import {FaEnvelope, FaLinkedin, FaGithub}  from 'react-icons/fa'
 import contact from "../data/contact"
 
