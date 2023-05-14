@@ -1,7 +1,5 @@
 import React from 'react';
-
-import {FaEnvelope, FaLinkedin, FaGithub}  from 'react-icons/fa'
-import contact from "../data/contact"
+import Contact from "./Contact"
 
 export default function Navbar(props) {
     const [isToggled, setToggled] = React.useState(false);
@@ -26,20 +24,7 @@ export default function Navbar(props) {
                     <li><a href="#experience" onClick={toggle}>experience</a></li>
                 </ul>
 
-                <ul className={"contact" + (isToggled ? " active" : "")}>
-                    <li id="contact-item">
-                        <FaEnvelope id="contact-icon"/>
-                        <a href={"mailto:" + contact.email}>{contact.email}</a>
-                    </li>
-                    <li id="contact-item">
-                        <FaLinkedin id="contact-icon"/>
-                        <a href={"https://" + contact.linkedin}>{contact.linkedin}</a>
-                    </li>
-                    <li id="contact-item">
-                        <FaGithub id="contact-icon"/>
-                        <a href={"https://" + contact.github}>{contact.github}</a>
-                    </li>
-                </ul>
+                <Contact isToggled={isToggled}/>
             </div>
         </nav>
     )

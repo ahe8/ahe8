@@ -21,7 +21,9 @@ export default function ProjectDetails(props) {
 
   if (props.flowchart) {
     projectDescriptionArray.push(
-      <li><a href={props.flowchart}>Flowchart</a></li>
+      <li>
+        <a href={props.flowchart} target="_blank" rel="noopener noreferrer">Flowchart</a>
+      </li>
     )
   }
 
@@ -66,7 +68,7 @@ export default function ProjectDetails(props) {
             </div>
           </div>
           <div className="modal-footer justify-content-between">
-            <a href={props.website}>
+            <a href={props.website} target="_blank" rel="noopener noreferrer">
               {props.website.includes("github") ? <FaGithub size={iconSize} className="modal--icon" /> : <FaLink size={iconSize} className="modal--icon" />}
               Source Code
             </a>

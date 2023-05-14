@@ -9,8 +9,12 @@ export default function Footer() {
         <footer>
             <hr />
             <div>
-                <a href={"https://" + contact.github}><BsGithub size={iconSize} /></a>
-                <a href={"https://" + contact.linkedin}><BsLinkedin size={iconSize} /></a>
+                <a href={"https://" + contact.github} target="_blank" rel="noopener noreferrer">
+                    <BsGithub size={iconSize} />
+                </a>
+                <a href={"https://" + contact.linkedin} target="_blank" rel="noopener noreferrer">
+                    <BsLinkedin size={iconSize} />
+                </a>
                 <a href={"mailto:" + contact.email}><BsEnvelopeFill size={iconSize} /></a>
             </div>
             <a className="btn btn-outline-secondary" href="#about">Back to Top</a>

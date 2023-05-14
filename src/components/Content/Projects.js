@@ -14,7 +14,9 @@ export default function Projects() {
                 <p className="card-text">{project.about}</p>
                 <hr/>
                 <div className="card--footer">
-                    <a href={project.website}>{project.website.includes("github") ? <FaGithub size={iconSize}/> : <FaLink size={iconSize}/>}</a>
+                    <a href={project.website}target="_blank" rel="noopener noreferrer">
+                        {project.website.includes("github") ? <FaGithub size={iconSize}/> : <FaLink size={iconSize}/>}
+                    </a>
                     <button type="button" className="btn btn-primary" data-bs-toggle="modal" data-bs-target={"#" + project.name + "Modal"}>View details</button>
                 </div>
             </div>
