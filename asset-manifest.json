@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c105e062.css",
-    "main.js": "/static/js/main.89c420b8.js",
+    "main.js": "/static/js/main.b3b32b2c.js",
     "static/media/austin.jpg": "/static/media/austin.3fb9b1b2715fb9fd66cc.jpg",
     "static/media/BCIT.png": "/static/media/BCIT.4b5b99360586c6e1f482.png",
     "static/media/CapU.png": "/static/media/CapU.8a49796b18083f69f563.png",
@@ -9,10 +9,10 @@
     "static/media/freedommobile.png": "/static/media/freedommobile.ca471a5c48afb0487378.png",
     "index.html": "/index.html",
     "main.c105e062.css.map": "/static/css/main.c105e062.css.map",
-    "main.89c420b8.js.map": "/static/js/main.89c420b8.js.map"
+    "main.b3b32b2c.js.map": "/static/js/main.b3b32b2c.js.map"
   },
   "entrypoints": [
     "static/css/main.c105e062.css",
-    "static/js/main.89c420b8.js"
+    "static/js/main.b3b32b2c.js"
   ]
 }
