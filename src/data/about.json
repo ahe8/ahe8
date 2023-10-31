@@ -1,16 +1,9 @@
 {
     "firstName": "Austin",
     "lastName": "He",
-    "title": "Software Developer",
+    "title": "Software Engineer",
     "intro": [
-        "I am a new graduate in the tech field, with a business and accounting background. Through the combination of my passion for technology and my interest in the world of business, I embarked on a journey to further my education in Computer Science. During my time at school, I delved into all aspects of software development from ideation, to building and testing.",
-        "My education in business provided me with a solid foundation in areas such as finance, accounting, marketing, and project management. This knowledge, combined with my technical skills, equips me with a unique perspective to bridge the gap between technology and business needs.",
-        "During my time as a student, I had opportunities to contribute in practical settings. I engaged in capstone projects that involved planning, proposing and creating apps for companies. These experiences have taught me how to work in a team, communicate effectively and solve unique problems.",
-        "Thank you for taking the time to learn a bit about me. I am enthusiastic about connecting with professionals and organizations that share my passion and I look forward to the exciting opportunities that await me!"
-    ],
-    "technologies": [
-        "Python",
-        "JavaScript",
-        "Java"
+    "I am currently a student at Western Governors University studying Software Engineering. Previously, I attended BCIT’s Computer Systems Technology program and discovered my passion for problem solving and creating things that has a lasting impact on the world",
+    "Thank you for taking the time to learn a bit about me. I am enthusiastic about connecting with professionals and organizations that share my passion and I look forward to making a difference in the world with you, no matter how big or small it may be."
     ]
 }
