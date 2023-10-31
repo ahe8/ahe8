@@ -1,14 +1,13 @@
 import React from 'react';
 import education from "../../data/education"
 import BCIT from "../../assets/images/BCIT.png"
-import CapU from "../../assets/images/CapU.png"
+import WGU from "../../assets/images/wgu.png"
 
 export default function Education() {
     const educationArray = education.map((school) =>
         <div key={school.id} className="school">
-            <img id="school--img" src={school.name.charAt(0) === "B" ? BCIT : CapU} alt={school.name}></img>
+            <img id="school--img" src={school.name.charAt(0) === "B" ? BCIT : WGU} alt={school.name}></img>
             <h3 id="school--name">{school.name}</h3>
-            <p id="school--location">{school.location}</p>
             <p id="school--date">{school.from} - {school.to}</p>
             <p id="school--program">{school.program}, {school.concentration}</p>
             <i id="school--honors">{school.honors}</i>
