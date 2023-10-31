@@ -46,19 +46,24 @@ export default function ProjectDetails(props) {
             <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div>
-            <div id={props.name + "Carousel"} className="carousel slide">
+              <div id={props.name + "Carousel"} className="carousel slide">
               <div className="carousel-inner">
                 {projectImageArray}
               </div>
-              <button className="carousel-control-prev" type="button" data-bs-target={"#" + props.name + "Carousel"} data-bs-slide="prev">
-                <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span className="visually-hidden">Previous</span>
-              </button>
-              <button className="carousel-control-next" type="button" data-bs-target={"#" + props.name + "Carousel"} data-bs-slide="next">
-                <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                <span className="visually-hidden">Next</span>
-              </button>
+              {props.numberOfImages > 1 &&
+                <>
+                  <button className="carousel-control-prev" type="button" data-bs-target={"#" + props.name + "Carousel"} data-bs-slide="prev">
+                    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span className="visually-hidden">Previous</span>
+                  </button>
+                  <button className="carousel-control-next" type="button" data-bs-target={"#" + props.name + "Carousel"} data-bs-slide="next">
+                    <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span className="visually-hidden">Next</span>
+                  </button>
+                </>
+              }
             </div>
+            
             <div className="modal-body">
               <p>{props.about}</p>
               <ul>

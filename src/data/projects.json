@@ -1,6 +1,26 @@
 [
     {
         "id": 1,
+        "title": "Routine Tracker",
+        "name": "routinetracker",
+        "numberOfImages": 1,
+        "flowchart": "",
+        "technologies": [
+            "React",
+            "SQL",
+            "Firebase",
+            "Express"
+        ],
+        "website": "https://github.com/ahe8/routine-tracker",
+        "about": "A simple web app for habit tracking.",
+        "description": [
+            "Designed and create a full stack web app to allow users to track their habits",
+            "Leveraged Profiler to reduce redundant useEffect calls",
+            "Built and designed a RESTful API backend connecting to a PostgreSQL database"
+        ]
+    },
+    {
+        "id": 2,
         "title": "Oooh - Tap It",
         "name": "tapit",
         "numberOfImages": 4,
@@ -19,7 +39,7 @@
         ]
     },
     {
-        "id": 2,
+        "id": 3,
         "title": "Genuity",
         "name": "genuity",
         "numberOfImages": 7,
@@ -39,7 +59,7 @@
         ]
     },
     {
-        "id": 3,
+        "id": 4,
         "title": "EcoBus",
         "name": "ecobus",
         "numberOfImages": 4,
@@ -62,7 +82,7 @@
         ]
     },
     {
-        "id": 4,
+        "id": 5,
         "title": "Sector Six",
         "name": "sectorsix",
         "numberOfImages": 5,
@@ -71,7 +91,7 @@
             "Python"
         ],
         "website": "https://github.com/ahe8/text-based-adventure-game",
-        "about": "A simple text-based dungeon game on a 25x25 board with character classes and monsters",
+        "about": "A text-based dungeon game on a 25x25 board with character classes and monsters",
         "description": [
             "Created a 25x25 board system with movement validation and difficulty progression",
             "Designed four character classes with unique skills and stats",
@@ -80,7 +100,7 @@
         ]
     },
     {
-        "id": 5,
+        "id": 6,
         "title": "Mobile Price Predictor",
         "name": "kaggle",
         "numberOfImages": 0,
