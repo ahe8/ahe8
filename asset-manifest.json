@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.c105e062.css",
-    "main.js": "/static/js/main.71250634.js",
+    "main.css": "/static/css/main.5ff96438.css",
+    "main.js": "/static/js/main.eb35528f.js",
     "static/media/austin.jpg": "/static/media/austin.222f0dac7383d7bced4f.jpg",
     "static/media/wgu.png": "/static/media/wgu.85ab084375285f9914bc.png",
     "static/media/BCIT.png": "/static/media/BCIT.4b5b99360586c6e1f482.png",
     "static/media/mcdonalds.png": "/static/media/mcdonalds.3faa81a15174cd21de65.png",
     "static/media/freedommobile.png": "/static/media/freedommobile.ca471a5c48afb0487378.png",
     "index.html": "/index.html",
-    "main.c105e062.css.map": "/static/css/main.c105e062.css.map",
-    "main.71250634.js.map": "/static/js/main.71250634.js.map"
+    "main.5ff96438.css.map": "/static/css/main.5ff96438.css.map",
+    "main.eb35528f.js.map": "/static/js/main.eb35528f.js.map"
   },
   "entrypoints": [
-    "static/css/main.c105e062.css",
-    "static/js/main.71250634.js"
+    "static/css/main.5ff96438.css",
+    "static/js/main.eb35528f.js"
   ]
 }
