@@ -6,8 +6,8 @@ export default function Projects() {
     const imagePath = "./images/projects/"
     const iconSize = 30;
 
-    const projectsArray = projects.map((project) => 
-        <div className="card" style={{width: '18rem'}}>
+    const projectsArray = projects.map((project, i) => 
+        <div key={project + i} className="card" style={{width: '18rem'}}>
             <img src={imagePath + project.name + "/cover.png"} className="card-img-top" alt={project.name + "Cover"} />
             <div className="card-body">
                 <h5 className="card-title">{project.title}</h5>

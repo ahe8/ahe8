@@ -2,7 +2,7 @@ import React from 'react'
 import skills from "../../data/skills.json"
 
 export default function Skills() {
-    const skillsArray = skills.map(skill => <li>{skill}</li>);
+    const skillsArray = skills.map((skill, i) => <li key={"skill" + i}>{skill}</li>);
 
     return (
         <div className="skills" id="skills">

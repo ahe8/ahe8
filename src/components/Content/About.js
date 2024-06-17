@@ -4,8 +4,8 @@ import austin from "../../assets/images/austin.jpg"
 import Skills from "./Skills"
 
 export default function About() {
-  const introArray = about.intro.map((sentence) => 
-    <p>{sentence}</p>
+  const introArray = about.intro.map((sentence, i) => 
+    <p key={"sentence" + i}>{sentence}</p>
   )
 
   return (

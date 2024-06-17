@@ -9,19 +9,19 @@ export default function ProjectDetails(props) {
 
   for (let i = 1; i <= props.numberOfImages; i++) {
     projectImageArray.push(
-      <div className={"carousel-item" + (i === 1 ? " active" : "")}>
+      <div key={"image" + i} className={"carousel-item" + (i === 1 ? " active" : "")}>
         <img src={imagePath + i + ".png"} className="d-block w-100" alt={props.name + i} />
       </div>
     )
   }
 
-  const projectDescriptionArray = props.description.map((description) =>
-    <li>{description}</li>
+  const projectDescriptionArray = props.description.map((description, i) =>
+    <li key={"description" + i}>{description}</li>
   )
 
   if (props.flowchart) {
     projectDescriptionArray.push(
-      <li>
+      <li key="flowchart">
         <a href={props.flowchart} target="_blank" rel="noopener noreferrer">Flowchart</a>
       </li>
     )
@@ -46,7 +46,7 @@ export default function ProjectDetails(props) {
             <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div>
-              <div id={props.name + "Carousel"} className="carousel slide">
+            <div id={props.name + "Carousel"} className="carousel slide">
               <div className="carousel-inner">
                 {projectImageArray}
               </div>
