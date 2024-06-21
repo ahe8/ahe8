@@ -73,10 +73,13 @@ export default function ProjectDetails(props) {
             </div>
           </div>
           <div className="modal-footer justify-content-between">
-            <a href={props.website} target="_blank" rel="noopener noreferrer">
-              {props.website.includes("github") ? <FaGithub size={iconSize} className="modal--icon" /> : <FaLink size={iconSize} className="modal--icon" />}
-              Source Code
-            </a>
+            {
+            props.website && 
+              <a href={props.website} target="_blank" rel="noopener noreferrer">
+                {props.website.includes("github") ? <FaGithub size={iconSize} className="modal--icon" /> : <FaLink size={iconSize} className="modal--icon" />}
+                Source Code
+              </a>
+            }
             <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
           </div>
         </div>

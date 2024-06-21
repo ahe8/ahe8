@@ -15,7 +15,7 @@ export default function Projects() {
                 <hr/>
                 <div className="card--footer">
                     <a href={project.website}target="_blank" rel="noopener noreferrer">
-                        {project.website.includes("github") ? <FaGithub size={iconSize}/> : <FaLink size={iconSize}/>}
+                        {project.website && (project.website.includes("github") ? <FaGithub size={iconSize}/> : <FaLink size={iconSize}/>)}
                     </a>
                     <button type="button" className="btn btn-primary" data-bs-toggle="modal" data-bs-target={"#" + project.name + "Modal"}>View details</button>
                 </div>
@@ -24,7 +24,7 @@ export default function Projects() {
     )
 
     return (
-        <div id="projects" className="projects">
+        <div className="projects" id="projects">
             <h1>Projects</h1>
             <div className="projects--container">
                 {projectsArray}

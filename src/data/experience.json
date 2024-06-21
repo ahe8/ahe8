@@ -1,20 +1,32 @@
 [
     {
+        "id": 3,
+        "from": "Sep. 2022",
+        "to": "Nov. 2022",
+        "location": "Vancouver, BC",
+        "company": "Oooh",
+        "position": "Module Developer (BCIT ISSP)",
+        "url":"https://cdn.jsdelivr.net/gh/ahe8/ahe8.github.io/src/assets/images/oooh.png",
+        "about": []
+    },
+    {
+        "id": 2,
+        "from": "May 2022",
+        "to": "May 2022",
+        "location": "Vancouver, BC",
+        "company": "HEAL Wellness",
+        "position": "Full Stack Developer (BCIT ISSP)",
+        "url":"https://cdn.jsdelivr.net/gh/ahe8/ahe8.github.io/src/assets/images/heal.png",
+        "about": []
+    },
+    {
         "id": 1,
         "from": "Sep. 2017",
         "to": "Jan. 2021",
         "location": "Burnaby, BC",
         "company": "Freedom Mobile",
         "position": "Retail Keyholder",
-        "about": []
-    },
-    {
-        "id": 2,
-        "from": "Nov. 2015",
-        "to": "Sep. 2017",
-        "location": "Vancouver, BC",
-        "company": "McDonald's",
-        "position": "Crew Member",
+        "url":"https://cdn.jsdelivr.net/gh/ahe8/ahe8.github.io/src/assets/images/freedommobile.png",
         "about": []
     }
 ]

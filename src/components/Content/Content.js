@@ -4,14 +4,16 @@ import Education from './Education'
 import Experience from './Experience'
 import Projects from './Projects'
 import Footer from "../Footer";
+import Certifications from "./Certifications";
 
 export default function Content() {
   return (
     <div className="content" data-aos="fade-left">
       <About />
+      <Experience />
       <Projects />
       <Education />
-      <Experience />
+      <Certifications />
       <Footer />
     </div>
   );

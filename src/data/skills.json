@@ -1,12 +1,11 @@
 [
-    "Python",
-    "Java",
-    "C",
+    "Python / Java / C",
     "Android Studio",
     "JavaScript / React / Node.js / Express / RESTful API",
+    "Spring Boot / Angular",
     "Bootstrap / Figma",
-    "SQL / MongoDB / Firebase",
+    "SQL / NoSQL / Firebase",
     "unittest / JUnit / Selenium",
-    "GitHub / Git",
+    "Git / GitHub / GitLab",
     "VSCode / JetBrains Suite"
 ]

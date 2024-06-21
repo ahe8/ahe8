@@ -1,6 +1,26 @@
 [
     {
-        "id": 1,
+        "id": 6,
+        "title": "Auto Parts Store",
+        "name": "autopartsstore",
+        "numberOfImages": 3,
+        "flowchart": "",
+        "technologies": [
+            "Spring Boot",
+            "Thymeleaf",
+            "Docker",
+            "Azure",
+            "JUnit"
+        ],
+        "website": "",
+        "about": "A simple web app for an auto parts store.",
+        "description": [
+            "Utilized Spring Boot to develop a simple shopping web app which enables users to purchase parts and products with an admin panel for inventory management and generate sales reports with advanced searching and filtering",
+            "Containerized application and deployed it on Azure using Container Registry and App Services"
+        ]
+    },
+    {
+        "id": 5,
         "title": "Routine Tracker",
         "name": "routinetracker",
         "numberOfImages": 1,
@@ -12,34 +32,15 @@
             "Express"
         ],
         "website": "https://github.com/ahe8/routine-tracker",
-        "about": "A simple web app for habit tracking.",
+        "about": "A straightforward web app to track and build habits.",
         "description": [
-            "Designed and create a full stack web app to allow users to track their habits",
-            "Leveraged Profiler to reduce redundant useEffect calls",
-            "Built and designed a RESTful API backend connecting to a PostgreSQL database"
+            "Designed and created a full-stack web app that allows users to monitor the consistency of their habits",
+            "Leveraged Profiler API to reduce redundant useEffect calls decreasing initial render times by 18%",
+            "Built and designed a RESTful API backend with Express connecting to a PostgreSQL database"
         ]
     },
     {
-        "id": 2,
-        "title": "Oooh - Tap It",
-        "name": "tapit",
-        "numberOfImages": 4,
-        "flowchart": "",
-        "technologies": [
-            "JavaScript",
-            "Oooh module engine"
-        ],
-        "website": "https://github.com/ParthCv/Tap-It-Oooh-ISSP",
-        "about": "A creator-audience interactive tapping game for the social media platform 'Oooh'",
-        "description": [
-            "Planned, presented and proposed game ideas and art directions to the module engine team",
-            "Created user flows, UI, user stories and broke down task lists for each screen of the designs",
-            "Implemented the loading, tutorial and gameplay screens as well as recording and video playback",
-            "Optimized performance through the pre-loading of assets to ensure smooth gameplay and processes"
-        ]
-    },
-    {
-        "id": 3,
+        "id": 4,
         "title": "Genuity",
         "name": "genuity",
         "numberOfImages": 7,
@@ -59,7 +60,7 @@
         ]
     },
     {
-        "id": 4,
+        "id": 3,
         "title": "EcoBus",
         "name": "ecobus",
         "numberOfImages": 4,
@@ -73,7 +74,7 @@
             "Bootstrap"
         ],
         "website": "https://github.com/fijiman24/COMP-2800-Team-DTC-05-EcoBus",
-        "about": "A mobile-first app that tells users how much carbon emission they emit traveling around Vancouver",
+        "about": "A mobile-first web app that tells users how much carbon emission they emit traveling around Vancouver",
         "description": [
             "Planned, developed, created user stories and prototyped app ideas for initial phase",
             "Added authentication and the reading and storing of app/user data using Firebase",
@@ -82,7 +83,7 @@
         ]
     },
     {
-        "id": 5,
+        "id": 2,
         "title": "Sector Six",
         "name": "sectorsix",
         "numberOfImages": 5,
@@ -100,7 +101,7 @@
         ]
     },
     {
-        "id": 6,
+        "id": 1,
         "title": "Mobile Price Predictor",
         "name": "kaggle",
         "numberOfImages": 0,

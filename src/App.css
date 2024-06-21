@@ -84,12 +84,14 @@ footer a {
   background-color: white;
 }
 
-.content>div:not(:nth-last-child(2)) {
+.content>div {
   min-height: 100%;
 }
 
-.content>div:nth-last-child(2) {
-  min-height: 75%;
+.content--container {
+  display:flex;
+  justify-content: center; 
+  align-items: center;
 }
 
 #contact-icon {
@@ -107,8 +109,27 @@ footer a {
   margin: 5em;
 }
 
+.certifications--container>div{
+  margin: 3em;
+}
+
+.row{
+  row-gap: 2rem;
+}
+
+.certification {
+  height: 100%;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
 .experience--container img,
-.education--container img {
+.education--container img,
+.certifications--container img {
   margin: 1em;
 }
 
@@ -117,21 +138,17 @@ footer a {
 
   grid-template-rows: 1fr 5fr 1fr;
   grid-template-columns: repeat(8, 12.5%);
-
 }
 
 .about-item-1 {
   grid-column: span 6;
   margin: auto;
-
 }
 
 .about-item-2 {
   grid-row-start: 2;
   margin-left: 2vw;
   grid-column: span 2;
-
-
 }
 
 .about-item-3 {
@@ -158,8 +175,10 @@ footer a {
 }
 
 .education img,
-.experience img {
+.experience img,
+.certifications img {
   max-height: 200px;
+  max-width: 200px;
 }
 
 .school p {
@@ -186,6 +205,10 @@ footer {
   margin: 1em auto;
 }
 
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
+}
 @media(min-width:768px) and (max-width:1400px) {
   .about-item-3 {
     grid-column: 3 / 9;
@@ -314,11 +337,9 @@ footer {
     margin: 2em;
   }
 
-  .skills ul{
+  .skills ul {
     list-style-type: none;
     padding-left: 0;
 
   }
-
-
 }
