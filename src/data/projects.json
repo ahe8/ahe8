@@ -125,7 +125,7 @@
             "Identified the significant predictor variables using a chi-square test and ordinary least squares",
             "Visualized data set variables with narration and summaries",
             "Built Stochastic Gradient Descent, Decision Tree Classifier and Random Forest Classifier models to find the highest accuracy of the three",
-            "Achieved a final model accuracy of 89.6%"
+            "Achieved a final model accuracy of 89.6% and saved model into a pickle file"
         ]
     }
 ]
