@@ -4,7 +4,7 @@ import experience from "../../data/experience"
 export default function Experience() {
     const experienceArray = experience.map((exp) => 
         <div key={exp.id}>
-            <img src={exp.url} alt={exp.company + "-logo"}></img>
+            <img src={exp.image} alt={exp.company + "--logo"}></img>
             <h3>{exp.company}</h3>
             <p>{exp.position}</p>
             <p>{exp.from} - {exp.to}</p>

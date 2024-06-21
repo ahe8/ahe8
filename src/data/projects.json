@@ -4,6 +4,7 @@
         "title": "Auto Parts Store",
         "name": "autopartsstore",
         "numberOfImages": 3,
+        "imagePath":"https://cdn.jsdelivr.net/gh/ahe8/ahe8.github.io/src/assets/images/projects/autopartsstore/",
         "flowchart": "",
         "technologies": [
             "Spring Boot",
@@ -13,7 +14,7 @@
             "JUnit"
         ],
         "website": "",
-        "about": "A simple web app for an auto parts store.",
+        "about": "A simple web app for an auto parts store",
         "description": [
             "Utilized Spring Boot to develop a simple shopping web app which enables users to purchase parts and products with an admin panel for inventory management and generate sales reports with advanced searching and filtering",
             "Containerized application and deployed it on Azure using Container Registry and App Services"
@@ -24,6 +25,7 @@
         "title": "Routine Tracker",
         "name": "routinetracker",
         "numberOfImages": 1,
+        "imagePath":"https://cdn.jsdelivr.net/gh/ahe8/ahe8.github.io/src/assets/images/projects/routinetracker/",
         "flowchart": "",
         "technologies": [
             "React",
@@ -32,7 +34,7 @@
             "Express"
         ],
         "website": "https://github.com/ahe8/routine-tracker",
-        "about": "A straightforward web app to track and build habits.",
+        "about": "A straightforward web app to track and build habits",
         "description": [
             "Designed and created a full-stack web app that allows users to monitor the consistency of their habits",
             "Leveraged Profiler API to reduce redundant useEffect calls decreasing initial render times by 18%",
@@ -44,6 +46,7 @@
         "title": "Genuity",
         "name": "genuity",
         "numberOfImages": 7,
+        "imagePath":"https://cdn.jsdelivr.net/gh/ahe8/ahe8.github.io/src/assets/images/projects/genuity/",
         "flowchart": "",
         "technologies": [
             "Android Studio",
@@ -64,6 +67,7 @@
         "title": "EcoBus",
         "name": "ecobus",
         "numberOfImages": 4,
+        "imagePath":"https://cdn.jsdelivr.net/gh/ahe8/ahe8.github.io/src/assets/images/projects/ecobus/",
         "flowchart": "",
         "technologies": [
             "React",
@@ -87,7 +91,8 @@
         "title": "Sector Six",
         "name": "sectorsix",
         "numberOfImages": 5,
-        "flowchart": "https://github.com/ahe8/text-based-adventure-game/blob/master/game.pdf",
+        "imagePath":"https://cdn.jsdelivr.net/gh/ahe8/ahe8.github.io/src/assets/images/projects/sectorsix/",
+        "flowchart": "http://cdn.jsdelivr.net/gh/ahe8/ahe8.github.io/src/assets/images/projects/sectorsix/flowchart.pdf",
         "technologies": [
             "Python"
         ],
@@ -105,6 +110,7 @@
         "title": "Mobile Price Predictor",
         "name": "kaggle",
         "numberOfImages": 0,
+        "imagePath":"",
         "flowchart": "",
         "technologies": [
             "Python",

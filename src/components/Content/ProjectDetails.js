@@ -3,14 +3,13 @@ import { FaGithub, FaLink } from 'react-icons/fa'
 
 export default function ProjectDetails(props) {
   const iconSize = 30;
-  const imagePath = "./images/projects/" + props.name + "/"
 
   let projectImageArray = []
 
   for (let i = 1; i <= props.numberOfImages; i++) {
     projectImageArray.push(
       <div key={"image" + i} className={"carousel-item" + (i === 1 ? " active" : "")}>
-        <img src={imagePath + i + ".png"} className="d-block w-100" alt={props.name + i} />
+        <img src={props.imagePath + i + ".png"} className="d-block w-100" alt={props.name + i} />
       </div>
     )
   }

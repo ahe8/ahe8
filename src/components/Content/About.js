@@ -15,7 +15,6 @@ export default function About() {
       <div className="about-item-3">
         {introArray}
         <Skills />
-        
         <a href="#projects" className="btn btn-light">Check out my projects!</a>
       </div>
     </div>

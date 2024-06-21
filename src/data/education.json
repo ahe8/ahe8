@@ -1,20 +1,22 @@
 [
     {
-        "id": 1,
+        "id": 2,
         "from": "Oct. 2023",
         "to": "Apr. 2024",
         "program": "Bachelor of Science",
         "concentration": "Software Engineering",
         "honors": "",
-        "name": "Western Governors University"
+        "name": "Western Governors University",
+        "image":"https://cdn.jsdelivr.net/gh/ahe8/ahe8.github.io/src/assets/images/education/wgu.png"
     },
     {
-        "id": 2,
-        "from": "Jan. 2021",
-        "to": "Dec. 2022",
+        "id": 1,
+        "name": "British Columbia Institute of Technology",
         "program": "Diploma in Computer Systems Technology",
         "concentration": "Predictive Analytics",
         "honors": "Graduated With Distinction",
-        "name": "British Columbia Institute of Technology"
+        "from": "Jan. 2021",
+        "to": "Dec. 2022",
+        "image":"https://cdn.jsdelivr.net/gh/ahe8/ahe8.github.io/src/assets/images/education/bcit.png"
     }
 ]
