@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
 import Content from './components/Content/Content';
@@ -9,7 +9,7 @@ import ProjectDetails from './components/Content/ProjectDetails';
 import projects from './data/projects.json';
 
 function App() {
-  const [isMobile, setIsMobile] = React.useState(window.innerWidth < 768)
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 768)
 
   useEffect(() => {
     AOS.init();

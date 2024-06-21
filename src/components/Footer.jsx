@@ -1,4 +1,3 @@
-import React from 'react'
 import { BsEnvelopeFill, BsLinkedin, BsGithub } from 'react-icons/bs'
 import contact from "../data/contact"
 

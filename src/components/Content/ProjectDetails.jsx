@@ -1,4 +1,3 @@
-import React from 'react';
 import { FaGithub, FaLink } from 'react-icons/fa'
 
 export default function ProjectDetails(props) {

@@ -1,4 +1,3 @@
-import React from 'react'
 import {FaEnvelope, FaLinkedin, FaGithub}  from 'react-icons/fa'
 import contact from "../data/contact"
 

@@ -1,8 +1,8 @@
-import React from 'react';
+import { useState } from 'react'
 import Contact from "./Contact"
 
 export default function Navbar(props) {
-    const [isToggled, setToggled] = React.useState(false);
+    const [isToggled, setToggled] = useState(false);
 
     function toggle() {
         setToggled(prevState => !prevState);

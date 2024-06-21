@@ -1,4 +1,3 @@
-import React from "react";
 import about from "../../data/about"
 import austin from "../../assets/images/austin.jpg"
 import Skills from "./Skills"

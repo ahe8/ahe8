@@ -1,4 +1,3 @@
-import React from 'react';
 import experience from "../../data/experience"
 
 export default function Experience() {
