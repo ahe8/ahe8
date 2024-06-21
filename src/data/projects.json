@@ -110,7 +110,7 @@
         "title": "Mobile Price Predictor",
         "name": "kaggle",
         "numberOfImages": 0,
-        "imagePath":"",
+        "imagePath":"http://cdn.jsdelivr.net/gh/ahe8/ahe8.github.io/src/assets/images/projects/kaggle/",
         "flowchart": "",
         "technologies": [
             "Python",
