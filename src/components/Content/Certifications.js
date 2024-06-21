@@ -6,7 +6,7 @@ export default function Certifications() {
     const certificationsArray = certifications.map((certification) =>
         <div className="col-sm">
             <div key={certification.id} className="certification">
-                <img id="certification--img" src={certification.image} alt={certification.name + "--image"}></img>
+                <img id="certification--img" src={certification.image} alt={certification.name + "--image"} loading="lazy"></img>
                 <h3 id="certification--name">{certification.name}</h3>
                 <p id="certification--date">Issued {certification.date}</p>
                 <a href={certification.link} target="_blank" rel="noopener noreferrer">

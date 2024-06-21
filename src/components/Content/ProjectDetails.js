@@ -9,7 +9,7 @@ export default function ProjectDetails(props) {
   for (let i = 1; i <= props.numberOfImages; i++) {
     projectImageArray.push(
       <div key={"image" + i} className={"carousel-item" + (i === 1 ? " active" : "")}>
-        <img src={props.imagePath + i + ".png"} className="d-block w-100" alt={props.name + i} />
+        <img src={props.imagePath + i + ".png"} className="d-block w-100" alt={props.name + i} loading="lazy"/>
       </div>
     )
   }

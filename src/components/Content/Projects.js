@@ -7,7 +7,7 @@ export default function Projects() {
 
     const projectsArray = projects.map((project, i) => 
         <div key={project + i} className="card" style={{width: '18rem'}}>
-            <img src={project.imagePath + "cover.png"} className="card-img-top" alt={project.name + "Cover"} />
+            <img src={project.imagePath + "cover.png"} className="card-img-top" alt={project.name + "Cover"} loading="lazy"/>
             <div className="card-body">
                 <h5 className="card-title">{project.title}</h5>
                 <p className="card-text">{project.about}</p>
