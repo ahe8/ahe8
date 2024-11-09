@@ -1,5 +1,4 @@
 import about from "../../data/about"
-import austin from "../../assets/images/austin.jpg"
 import Skills from "./Skills"
 
 export default function About() {
@@ -10,7 +9,7 @@ export default function About() {
   return (
     <div className="about" id="about">
       <h1 className="about-item-1">Hi! My name is {about.firstName}!</h1>
-      <img className="about-item-2" id="avatar" src={austin} alt="avatar"></img>
+      <img className="about-item-2" id="avatar" src={about.image} alt="avatar"></img>
       <div className="about-item-3">
         {introArray}
         <Skills />
